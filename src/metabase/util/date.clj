@@ -7,7 +7,7 @@
             [clojure.math.numeric-tower :as math]
             [clojure.tools.logging :as log]
             [metabase.util :as u]
-            [puppetlabs.i18n.core :refer [trs]])
+            [metabase.util.i18n :refer [trs]])
   (:import clojure.lang.Keyword
            [java.sql Time Timestamp]
            [java.util Calendar Date TimeZone]
